@@ -12,11 +12,13 @@ function HomePage() {
   return (
     <>
         <Navbar/>
-        <Awards/>
-        <Education/>
+       
         <Hero/>
-        <Pricing/>
+        <Awards/>
         <Stats/>
+          <Pricing/>
+        <Education/>
+        
         <OpenAccount/>
         <Footer/>
 
