@@ -1,13 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="container ">
-      <nav class="navbar navbar-expand-lg border-bottom fixed-top " style={{backgroundColor:"#FFF"}}>
+      <nav class="navbar navbar-expand-lg border-bottom fixed-top mb-5" style={{backgroundColor:"#FFF"}}>
         <div class="container-fluid ">
-          <a class="navbar-brand px-5 mx-3" href="#" >
+          <Link class="navbar-brand px-5 mx-3" to='/' >
            <img src='media/images/logo.svg' alt="logo" style={{width:"25%"}}/>
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -24,29 +24,29 @@ function Navbar() {
             <form class="d-flex" role="search">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item px-2">
-                <a class="nav-link active nav-link link-primary-hover" aria-current="page" href="#">
+                <Link class="nav-link active nav-link link-primary-hover" aria-current="page" to="/signup">
                   SignUp
-                </a>
+                </Link>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/pricing">
                   Pricing 
-                </a>
+                </Link>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/support">
                   Support
-                </a>
+                </Link>
 
               
               </li>

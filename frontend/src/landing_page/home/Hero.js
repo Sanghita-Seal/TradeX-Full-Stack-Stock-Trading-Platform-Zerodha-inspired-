@@ -5,7 +5,7 @@ function Hero() {
     
     /* //img in public o we can use like this
       //if img in src folder u have to use react component */
-      <div className="container p-5">
+      <div className="container p-5 " >
   <div className="row text-center">
     <img
       src="/media/images/homeHero.png"
